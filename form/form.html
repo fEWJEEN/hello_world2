@@ -12,7 +12,7 @@
           <label>Text box <input type="text" name="text box" required></label>
           <br>
           <br>
-          <label>Name <input type="text" name="name" required pattern="[A-Za-z]" placeholder="Slava"></label>
+          <label>Name <input type="text" name="name" required pattern="[A-Za-z]{2,}" placeholder="Slava"></label>
           <br>
           <br>
           <label>Password <input type="password" name="secret" value="123123" required></label>
@@ -43,34 +43,26 @@
     </fieldset>
     <fieldset>
         <legend>Others</legend>
-        <label>Number <input type="number" min="0" max="20"></label>
+        <label>Number <input type="number" min="0" max="20" name="number"></label>
         <br>
         <br>
-        <label>Color <input type="color"></label>
+        <label>Color <input type="color" name="color"></label>
         <br>
         <br>
-        <label>Date <input type="date"></label>
+        <label>Date <input type="date" name="date"></label>
         <br>
         <br>
-        <label>email <input type="email"></label>
+        <label>email <input type="email" name="email"></label>
         <br>
         <br>
-        <label>telephone <input type="tel"></label>
+        <label>telephone <input type="tel" name="tel"></label>
         <br>
         <br>
-        <label>url <input type="url"></label>
+        <label>url <input type="url" name="url"></label>
         <br>
         <br>
         <input type="file" name="file">
     </fieldset>
-    
-    
-    
-    
-    
-    
-    
-    
     <fieldset>
         <legend>Buttons</legend>
         <button name="button">Standard button</button>
