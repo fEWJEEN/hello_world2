@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+</head>
+<body>
+ <h1>Form Demo</h1>
+ <form action="123123123.php" method="POST">
+    <fieldset>
+        <legend>Text input</legend>
+          <label>Text box <input type="text" name="text box" required></label>
+          <br>
+          <br>
+          <label>Name <input type="text" name="name" required pattern="[A-Za-z]{2,}" placeholder="Slava"></label>
+          <br>
+          <br>
+          <label>Password <input type="password" name="secret" value="123123" required></label>
+          <br>
+          <br>
+          <label>Text Area <textarea name="comments" rows="2" cols="50" placeholder="Your text here"></textarea></label>
+    </fieldset>
+    <fieldset>
+        <legend>Selecting elements</legend>
+        <p>Select List</p>
+        <select name="number">
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+            <option value="four">Four</option>
+        </select>
+        <br>
+        <br>
+        <p>Check boxes</p>
+                   <input type="checkbox" name="228" id="228" value="Green Eggs"> <label for="228">Green Eggs</label>
+                   <input type="checkbox" name="228" id="322" value="Ham"> <label for="322">Ham</label>
+        <br>           
+        <br>
+        <p>Radio buttons</p>
+                     <label><input type="radio" name="size" value="small" checked="checked"> small</label>
+                     <label><input type="radio" name="size" value="medium"> medium</label>
+                     <label><input type="radio" name="size" value="large"> large</label>
+    </fieldset>
+    <fieldset>
+        <legend>Others</legend>
+        <label>Number <input type="number" min="0" max="20" name="number"></label>
+        <br>
+        <br>
+        <label>Color <input type="color" name="color"></label>
+        <br>
+        <br>
+        <label>Date <input type="date" name="date"></label>
+        <br>
+        <br>
+        <label>email <input type="email" name="email"></label>
+        <br>
+        <br>
+        <label>telephone <input type="tel" name="tel"></label>
+        <br>
+        <br>
+        <label>url <input type="url" name="url"></label>
+        <br>
+        <br>
+        <input type="file" name="file">
+    </fieldset>
+    <fieldset>
+        <legend>Buttons</legend>
+        <button type="button" name="button">Standard button</button>
+        <button type="button" name="button">input button</button>
+        <button name="button">Reset</button>
+        <input type="submit">
+    </fieldset>
+</form>
+</body>
+
+</html>
