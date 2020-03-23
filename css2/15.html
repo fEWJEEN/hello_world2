@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>131wf1</title>
+        <style>
+            input:invalid + span::after{
+                content: '\2612';
+                padding-left: 10px;
+            }
+            input:valid + span::after{
+                content: '\2611';
+                padding-left: 10px;
+            }
+            input[type='number']{
+                width: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Пожалуйста, заполните обязательные поля.</p>
+        <form action="#">
+           <p>
+            Имя: <input type="text" name="name" required><span></span>
+            <br>
+            <br>
+            Возраст: <input type="number" name="age"><span></span>
+            <br>
+            <br>
+            E-mail: <input type="email" name="email" required><span></span>
+            <br>
+            <br>
+            Сайт: <input type="url" name="url"><span></span>
+            <br>
+            <br>
+            <input type="submit">
+           </p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+.qwe{
+    width: 300px;
+    height: 118px;
+    background-color: green;
+    position: relative;
+}
+.qwe1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    color:  white;
+}
+.qwe::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+.qwe::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-top: 108px;
+}
+.qweqwe::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-left: 290px;
+}
+.qweqwe::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white; 
+    margin-left: 290px;
+    margin-top: 108px;
+}

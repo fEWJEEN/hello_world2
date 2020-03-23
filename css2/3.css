@@ -1,0 +1,25 @@
+.qwe1{
+    border: 2px solid white;
+    background: linear-gradient(to top, #f1aaca 20%, #e996bf 50%, #ec75ab 80% );
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+.qwe2{
+    font-size: 2em;
+    font-family: italic;
+}
+.qwe{
+    position: absolute;
+    content: '';
+    width: 154px;
+    height: 54px;
+    border: 2px solid #ec75ab;
+    margin:  50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px lightpink;
+}

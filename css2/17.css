@@ -1,0 +1,40 @@
+.q{
+    width: 114px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.7em;
+}
+.qwe{
+    display: inline;
+}
+.s{
+    display: inline-block;
+}
+.qwe2{
+    background-image: url(weather-sun.jpg);
+    width: 114px;
+    height: 94px;
+}
+.qwe5{
+    background-image: url(weather-snow.jpg);
+    width: 114px;
+    height: 94px;
+}
+.qwe8{
+    background-image: url(weather-blizzard.jpg);
+    width: 114px;
+    height: 94px;
+}
+.w{
+    width: 114px;
+    height: 50px;
+    font-size: 2em;
+    line-height: 50px;
+    text-align: center;
+}
+.s:hover{
+    box-shadow: 3px 5px 45px #444;
+}

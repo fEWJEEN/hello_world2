@@ -1,0 +1,24 @@
+.q{
+    height: 35px;
+    border-radius: 10px;
+}
+.qwe{
+    background: linear-gradient(to top, #eef0f8 20%, #6cb2db 50%, #4f82c5 80%);
+    border: 1px solid black;
+}
+.qwe1{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4af264), to(#4af264), color-stop(0.5, #39ba4d));
+}
+.qwe2{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e0f0f4), to(#00bbd6), color-stop(0.72, #00bee8));
+    color: #ffe;
+}
+.qwe3{
+    background: -webkit-gradient(linear, 0 0, 0  100%, from(#f2f2f2), to(#252525), color-stop(0.6, #777), color-stop(0.6,  #404040));
+    color: #fff;
+    border: 2px solid  #666;
+}
+.qwe4{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e7e8), to(#bec0c2), color-stop(0.5, #e9e9ea));
+    border: 2px inset #f0f0f0
+}
