@@ -1,44 +1,43 @@
-.qwe{
-    width: 300px;
-    height: 118px;
+.block{
+    width: 200px;
+    height: 100px;
     background-color: green;
+    color:  #fff;
+    font-size: 15px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.qwe1{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 50px;
-    color:  white;
-}
-.qwe::before{
+.block::before, .block::after{
     content: '';
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: white;
+    background-color: green;
+    top: 50%;
 }
-.qwe::after{
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    margin-top: 108px;
+.block::after{
+    right: 0;
+    transform: translate(100%, -50%);
 }
-.qweqwe::after{
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    margin-left: 290px;
+.block::before{
+    left: 0;
+    transform: translate(-100%, -50%);
 }
-.qweqwe::before{
-    content: '';
-    position: absolute;
+.size-s::before, .size-s::after {
     width: 10px;
-    height: 10px;
-    background-color: white; 
-    margin-left: 290px;
-    margin-top: 108px;
+    height: calc(100% - 20px);
 }
+.size-m::before, .size-m::after  {
+    width: 20px;
+    height: calc(100% - 40px);
+}
+.size-l::before, .size-l::after{
+    width: 30px;
+    height: calc(100% - 60px);
+}
+.wrapper .block:not(:last-of-type){
+    margin-bottom: 10px;
+}
+
+
+

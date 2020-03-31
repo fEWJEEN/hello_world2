@@ -1,4 +1,4 @@
-.q{
+.date{
     width: 114px;
     height: 30px;
     background-color: aqua;
@@ -7,34 +7,29 @@
     text-align: center;
     font-size: 1.7em;
 }
-.qwe{
-    display: inline;
-}
-.s{
+.picture{
     display: inline-block;
 }
-.qwe2{
+.sun, .snow, .blizzard{
+    width: 114px;
+    height: 94px;
+}
+.sun{
     background-image: url(weather-sun.jpg);
-    width: 114px;
-    height: 94px;
 }
-.qwe5{
+.snow{
     background-image: url(weather-snow.jpg);
-    width: 114px;
-    height: 94px;
 }
-.qwe8{
+.blizzard{
     background-image: url(weather-blizzard.jpg);
-    width: 114px;
-    height: 94px;
 }
-.w{
+.temperature{
     width: 114px;
     height: 50px;
     font-size: 2em;
     line-height: 50px;
     text-align: center;
 }
-.s:hover{
-    box-shadow: 3px 5px 45px #444;
+.picture:hover{
+    box-shadow: 0 0 3px #444;
 }

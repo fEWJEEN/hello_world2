@@ -1,18 +1,25 @@
-.qwe1{
+.fieldset{
     width: 500px;
     height: 300px;
     background-color: #d3c990;
     background-image: url(5.png);
     background-repeat: no-repeat;
+    position: relative;
+
 }
-.qwe2{
-    color: brown;
-    font-weight: 700;
+.radio:not(:last-of-type){
+    margin-bottom: 20px;
 }
-.qweqwe1{
-    background-color: brown;
-    color: white;
+.buttons{
+    content: '';
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
 }
-.qweqwe{
-    margin-left: 150px;
+.button{
+    background-color: maroon;
+    border: 1px solid black;
+}
+.legend{
+    color: maroon;
 }

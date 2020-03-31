@@ -1,22 +1,22 @@
-.black{
+.square{
     width: 200px;
     height: 200px;
+    border: 2px solid #999;
+    box-shadow: 0 5px 20px #777;
+}
+.black{
     background-color: black;
-    margin: 50px;
+    margin: 100px;
     position: relative;
 }
 body{
     margin: 0;
 }
 .white{
-    width: 200px;
-    height: 200px;
     background-color: white;
-    margin: 150px;
+    content: '';
     position: absolute;
-    top: 0px;
-}
-div{
-    border: 2px solid #444;
-    box-shadow: 0 5px 20px #777;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
 }

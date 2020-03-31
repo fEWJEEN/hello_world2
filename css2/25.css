@@ -7,10 +7,11 @@
 }
 body{
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.qwe{
-    width: 400px;
-    height: 70px;
+.registration{
+    width: 100%;
+    height: 25%;
     border-bottom: 1px solid white;
     line-height: 80px;
     color: white;
@@ -21,15 +22,15 @@ body{
     font-weight: 800;
 }
 .email{
-    width: 400px;
-    height: 50px;
-    padding-left: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 25%;
+    padding-left: 20px;  
     text-align: left;
     color: white;   
+    margin-bottom: -15px;
 }
 input[type="email"]{
-    width: 350px;
+    width: 334px;
     margin-top: 5px;
 }
 input[type="password"]{
@@ -38,33 +39,29 @@ input[type="password"]{
 }
 .password{
     display: inline-block;
+    height: 25%;
+    width: 100%;
 }
 .firstpass{
-    width: 160px;
-    height: 50px;
+    width: 45%;
     padding-left: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     color: white;
     display: inline-block;
-    margin-right: 15px;
 }
 .secondpass{
-    width: 160px;
-    height: 50px;
-    padding-left: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
     text-align: left;
     color: white;
     display: inline-block;
 }
 .submit{
+    width: 100%;
+    height: 25%;
     padding-left: 20px;
-    padding-top: 20px;
 }
 input[type="submit"]{
     background-color: rgb(250, 232, 67);
     height: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
 }

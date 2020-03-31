@@ -13,11 +13,11 @@ html{
 th, td{
     border-top: 1px solid red;
 }
-.qwe{
+.row{
     color: white;
     background-color: red;
 }
-.qwe1{
+.rows{
     background-color: rosybrown;
 }
 .table td, .table th{
@@ -26,7 +26,7 @@ th, td{
 .name{
     text-align: left;
 }
-#qwe{
+.odd{
     background-color: salmon;
 }
 

@@ -1,68 +1,39 @@
-.qwe1{
+.battery{
     width: 100px;
     height: 50px;
     border: 2px solid black;
-    margin-bottom: 5px;
     position: relative;
 }
-.qwe1::before{
+.battery::after{
     content: '';
-    width: 33px;
-    height: 50px;
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    transform: translate(100%, -50%);
+    top: 50%;
+}
+.battery::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+}
+.battery-low::before{
     background-color: red;
-    position: absolute;
+    width: 20%;
 }
-.qwe1::after{
-    content: '';
-    width: 10px;
-    height: 20px;
-    background-color: black;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 15px;
+.battery-medium::before{
+    background-color: yellow;
+    width: 40%;
 }
-.qwe2{
-    width: 100px;
-    height: 50px;
-    border: 2px solid black;
-    margin-bottom: 5px;
-    position: relative;
-}
-.qwe2::before{
-    content: '';
-    width: 66px;
-    height: 50px;
-    background-color: orange;
-    position: absolute;
-}
-.qwe2::after{
-    content: '';
-    width: 10px;
-    height: 20px;
-    background-color: black;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 15px;
-}
-.qwe3{
-    width: 100px;
-    height:50px;
-    border: 2px solid black;
-    position: relative;
-}
-.qwe3::before{
-    content:'';
-    width: 100px;
-    height: 50px;
+.battery-max::before{
     background-color: green;
-    position: absolute;
+    width: 80%;
 }
-.qwe3::after{
-    content: '';
-    width: 10px;
-    height: 20px;
-    background-color: black;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 15px;
+.batteries .battery:not(:last-of-type){
+    margin-bottom: 5px;
+}
+.batteries{
+    margin-bottom: 50px;
 }

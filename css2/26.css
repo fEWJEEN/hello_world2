@@ -18,12 +18,10 @@ thead th:nth-child(2){
 thead th:nth-child(3) {
     width: 35%;
     text-align: center;
-
 }
 thead th:nth-child(4){
     width: 25%;
 }
-
 th{
     background-color: blueviolet;
     color: white;
