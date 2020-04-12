@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.qwe{
+    width: 300px;
+    border-radius: 0 10px 10px 0;
+    background-color: #555;
+    color: white;
+    border-right: 20px solid orange;
+    position: fixed;
+    top: 200px;
+    left: -320px;
+    min-height: 100px;
+    padding: 10px;
+    transition: left 1s;
+}
+.qwe img{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.qwe::after{
+    content: 'Обратная связь';
+    color: #000;
+    position: absolute;
+    right: -60px;
+    bottom: 50px;
+    transform: rotate(-90deg);
+}
+.qwe:hover{
+    left: 0;
+}

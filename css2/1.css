@@ -1,0 +1,39 @@
+.battery{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    position: relative;
+}
+.battery::after{
+    content: '';
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    transform: translate(100%, -50%);
+    top: 50%;
+}
+.battery::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+}
+.battery-low::before{
+    background-color: red;
+    width: 20%;
+}
+.battery-medium::before{
+    background-color: yellow;
+    width: 40%;
+}
+.battery-max::before{
+    background-color: green;
+    width: 80%;
+}
+.batteries .battery:not(:last-of-type){
+    margin-bottom: 5px;
+}
+.batteries{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>123123123</title>
+        <style>
+            .nav{
+                display: block;
+                padding: 0;
+                background: linear-gradient(white, #4d662f);
+            }
+            .nav > li{
+                display: inline-block;
+                position: relative;
+                list-style: none;
+                padding: 10px 15px;
+                border-right: 2px solid #888;
+                margin: 0;
+                font-size: 1rem;
+                border-radius: 0 35px 35px 0;
+            }
+            li::after{
+                content: '';
+                position: absolute;
+                border-right: 2px solid #FFF;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                display: block;
+                border-radius: 0 35px 35px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="nav">
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+            <li>Quatro</li>
+        </ul>
+    </body>
+</html>

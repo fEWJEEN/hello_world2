@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+    color: #975752;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow:5px 5px 0 0 #975752;
+    border: 1px solid black;
+}
+li{
+    padding-bottom: 10px;
+    padding-top: 8px;
+    margin-left: -30px
+}
