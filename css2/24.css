@@ -8,6 +8,9 @@ body{
     color: white;
     margin-top: 40px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .block::before, .block::after{
     position: absolute;
@@ -29,19 +32,8 @@ body{
     bottom: 0;
     right: 0;
 }
-span{
-    position: absolute;
-    padding-left: 30px;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-.small-blocks{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    padding-right: 20px;
+.text{
+    margin-left: 30px;
 }
 .small-block{
     display: inline-block;

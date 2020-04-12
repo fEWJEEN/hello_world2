@@ -4,19 +4,42 @@
         <meta charset="utf-8">
         <title>123123123</title>
         <style>
-            input[type="checkbox"]:checked + span{
+            .wrapper{
+                display: flex;
+                flex-direction: column;
+            }
+            .input:checked + span{
                 background: rgb(124, 199, 195);
             }
-            span{
-                padding: 0 5px;
+            .wrapper .item:not(:last-of-type){
+                margin-bottom: 10px;
+            }
+            .btn{
+                margin-top: 20px;
             }
         </style>
     </head>
     <body>
-        <p><label><input type="checkbox" name="1" value="1"><span>Балка рукояти</span></label></p>
-        <p><label><input type="checkbox" name="1" value="2"><span>Шестерня</span></label></p>
-        <p><label><input type="checkbox" name="1" value="3"><span>Вал</span></label></p>
-        <p><label><input type="checkbox" name="1" value="4"><span>Пимпочка</span></label></p>
-        <p><input type="submit" value="Отправить"></p>
+        <div class="wrapper">
+            <label class="item">
+                <input type="checkbox" class="input" name="1" value="1">
+                    <span>Балка рукояти</span>
+            </label>
+            <label class="item">
+                <input type="checkbox" class="input" name="1" value="2">
+                    <span>Шестерня</span>
+            </label>
+            <label class="item">
+                <input type="checkbox" class="input" name="1" value="3">
+                    <span>Вал</span>
+            </label>
+            <label class="item">
+                <input type="checkbox" class="input" name="1" value="4">
+                    <span>Пимпочка</span>
+            </label>
+            <div class="btn">
+                <input type="submit" value="Отправить">
+            </div>
+        </div>
     </body>
 </html>

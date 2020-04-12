@@ -9,20 +9,36 @@
         <form action="#" method="POST">
         <fieldset class="fieldset">
             <legend class="legend">Выбор варианта</legend>
-            <p><strong>Какой раздел психологии изучает познавательные процессычеловеческого сознания?</strong></p>
-            <div class="buttons">
-            <input type="radio" value="Психоанализ" class="radio">Психоанализ
-            <br>
-            <input type="radio" value="Бихевиорризм" class="radio">Бихевиоризм
-            <br>
-            <input type="radio" value="Когнитивная психология" class="radio">Когнитивная психология
-            <br>
-            <input type="radio" value="Гуманистическая психология" class="radio">Гуманистическая психология
-            <br>
-            <input type="radio" value="Гештальт-психология" class="radio">Гештальт-психология
-            <br>
-            <input type="submit" class="radio button">
-            </div>       
+            <p>
+                <strong>Какой раздел психологии изучает познавательные процессычеловеческого сознания?</strong>
+            </p>
+            <div class="wrapper">
+                <div class="buttons">
+                <label class="radio-group-item">
+                    <input type="radio" name="question" value="Психоанализ" class="radio">
+                     Психоанализ
+                </label>
+                <label class="radio-group-item">
+                    <input type="radio" name="question"  value="Бихевиорризм" class="radio">
+                    Бихевиоризм
+                </label>
+                <label class="radio-group-item">
+                    <input type="radio" name="question" value="Когнитивная психология" class="radio">
+                    Когнитивная психология
+                </label>
+                <label class="radio-group-item">
+                    <input type="radio" name="question" value="Гуманистическая психология" class="radio">
+                    Гуманистическая психология
+                </label>
+                <label class="radio-group-item">
+                    <input type="radio" name="question" value="Гештальт-психология" class="radio">
+                    Гештальт-психология
+                </label>
+                <div>
+                <input type="submit" name="question" class="radio button">
+                </div>
+                </div>
+            </div>
         </fieldset>
 
         </form>

@@ -9,59 +9,43 @@ body{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.registration{
-    width: 100%;
-    height: 25%;
+.title{
     border-bottom: 1px solid white;
-    line-height: 80px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    padding-left: 20px;
     font-size: 2em;
     font-weight: 800;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0 20px 20px;
 }
-.email{
+.fields{
     width: 100%;
-    height: 25%;
-    padding-left: 20px;  
-    text-align: left;
-    color: white;   
-    margin-bottom: -15px;
+    padding: 0 50px 0 20px;
+    box-sizing: border-box;
 }
-input[type="email"]{
-    width: 334px;
-    margin-top: 5px;
-}
-input[type="password"]{
-    width: 150px;
-    margin-top: 5px;
-}
-.password{
-    display: inline-block;
-    height: 25%;
-    width: 100%;
-}
-.firstpass{
-    width: 45%;
-    padding-left: 20px;
-    text-align: left;
+.label{
+    display: flex;
+    flex-direction: column;
     color: white;
-    display: inline-block;
 }
-.secondpass{
-    width: 45%;
-    text-align: left;
-    color: white;
-    display: inline-block;
+.input{
+    margin-top: 5px;
 }
 .submit{
-    width: 100%;
-    height: 25%;
-    padding-left: 20px;
-}
-input[type="submit"]{
     background-color: rgb(250, 232, 67);
-    height: 25px;
     border: none;
+    padding: 5px;
+}
+.row{
+    padding: 10px 0;
+}
+.row-password{
+    display: flex;
+    justify-content: space-between;
+}
+.row-password .label{
+    width: calc(50% - 20px);
 }

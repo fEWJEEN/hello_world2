@@ -1,18 +1,25 @@
 .date{
-    width: 114px;
-    height: 30px;
     background-color: aqua;
     color: white;
-    line-height: 30px;
-    text-align: center;
     font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
 }
 .picture{
     display: inline-block;
 }
+.pictures .picture:not(:last-of-type){
+    margin-right: 10px;
+}
 .sun, .snow, .blizzard{
-    width: 114px;
-    height: 94px;
+    min-width: 114px;
+    min-height: 94px;
+    background-repeat: no-repeat;
 }
 .sun{
     background-image: url(weather-sun.jpg);
@@ -24,11 +31,10 @@
     background-image: url(weather-blizzard.jpg);
 }
 .temperature{
-    width: 114px;
-    height: 50px;
     font-size: 2em;
-    line-height: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .picture:hover{
     box-shadow: 0 0 3px #444;

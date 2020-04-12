@@ -4,26 +4,33 @@
         <meta charset="utf-8">
         <title>123wdg</title>
         <style>
-            div{
-                display: inline-block;
-                width: 15px;
-                height: 15px;
-                border-radius: 5px;
+            .button{
+                width: 30px;
+                height: 30px;
+                border-radius: 10px;
                 box-shadow: 0 0 4px #666;
-                line-height: 15px;
-                text-align: center;
                 padding: 5px;
                 background: linear-gradient(#fff, #d3cdc6);
-                margin-right: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+            }
+            .buttons{
+                display: flex;
+                width: 400px;
+                justify-content: space-between;
             }
         </style>
     </head>
     <body>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div class="buttons">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+        </div>
     </body>
 </html>

@@ -8,6 +8,7 @@
     border: 50px solid rgb(185, 194, 110);
     border-right: 50px solid rgb(214, 216, 179); 
     font-size: 4em;
-    line-height: 200px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }    

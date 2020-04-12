@@ -6,27 +6,29 @@
         <link rel="stylesheet" href="25.css">
     </head>
     <body>
-        <div class="form">
-            <div class="registration">
-                <span>Регистрация</span>
-            </div>
-            <div class="email">
-                <p>Email<br>
-                <input type="email"></p>
-            </div>
-            <div class="password">
-                <div class="firstpass">
-                    <p>Пароль<br>
-                    <input type="password"></p>
+        <form class="form">
+                <h2 class="title">Регистрация</h2>
+            <div class="fields">   
+                <div class="row row-email">
+                    <label class="label">
+                        Email
+                        <input type="email" class="input" name="email">
+                    </label>
                 </div>
-                <div class="secondpass">
-                    <p>Еще раз<br>
-                    <input type="password"></p>
+                <div class="row row-password">
+                    <label class="label">
+                        Пароль
+                        <input type="password" class="input" name="password">
+                    </label>
+                    <label class="label">
+                        Еще раз
+                        <input type="password" class="input" name="secondpass">
+                    </label>
                 </div>
-            </div>
-                <div class="submit">
-                    <p><input type="submit"></p>
-                </div>
-        </div>
+                    <div class="row row-submit">
+                        <input type="submit" class="submit">
+                    </div>
+            </div> 
+        </form>
     </body>
 </html>
